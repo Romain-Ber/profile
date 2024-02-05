@@ -1,0 +1,114 @@
+body {
+  background-image: url("images/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: Indie Flower;
+  font-size: 20px;
+  color: #DDE5B6;
+  text-align: center;
+}
+
+h1 {
+  font-family: Poiret One;
+  font-size: 36px;
+  color: #F0EAD2;
+}
+
+h2 {
+  font-family: Poiret One;
+  font-size: 28px;
+  color: #F0EAD2;
+}
+
+ul, ol {
+  padding: 0px 128px;
+}
+
+li {
+  text-align: left;
+}
+
+.social-link {
+  display: inline-block;
+  padding: 0px 16px;
+}
+
+#social-list {
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 12px;
+  background-color: #E9EDC9;
+  color: #D4A373;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease
+}
+
+a:hover {
+  background-color: #D4A373;
+  color: #E9EDC9;
+}
+
+#profile-pic {
+  width: 192px;
+  height: 192px;
+  border-radius: 50%
+}
+
+.card-container {
+  background-color: #6C584C;
+  padding: 24px 24px;
+  width: 608px;
+  margin: 0px auto;
+  border-radius: 24px;
+  border: 2px solid #DDE5B6;
+}
+
+.card {
+  background-color: #A98467;
+  padding: 24px 48px;
+  width: 512px;
+  margin: 24px auto;
+  border-radius: 24px;
+  border: 2px solid #DDE5B6;
+}
+
+@media (max-width: 732px) {
+  .card-container {
+    width: 480px;
+  }
+  .card {
+    padding: 24px 48px;
+    width: 384px;
+    margin: 24px auto;
+  }
+  ul, ol {
+    padding: 0px 64px;
+  }
+}
+
+@media (max-width: 608px) {
+  .body {
+    padding: 24px;
+  }
+  .card-container {
+    width: 320px;
+  }
+  .card {
+    padding: 24px 48px;
+    width: 224px;
+    margin: 24px auto;
+  }
+  ul, ol {
+    padding: 0px 12px;
+  }
+  .social-link {
+    display: inline-block;
+    padding: 16px 16px;
+  }
+}
